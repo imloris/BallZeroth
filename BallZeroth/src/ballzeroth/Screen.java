@@ -15,14 +15,14 @@ public class Screen extends JPanel implements Runnable {
 
     public Thread gameLoop = new Thread(this);
 
-    public static Image[] tileset_ground = new Image[100];
-    public static Image[] tileset_res = new Image[100];
-    public static Image[] tileset_enemies = new Image[100];
+    public static Image[] tileset_ground = new Image[20];
+    public static Image[] tileset_res = new Image[20];
+    public static Image[] tileset_enemies = new Image[20];
 
     public static Map map;
     public static Store store;
 
-    public static Enemy[] enemies = new Enemy[100];
+    public static Enemy[] enemies = new Enemy[20];
 
     private ImageIcon image;
     public static Point mouse = new Point(0, 0);

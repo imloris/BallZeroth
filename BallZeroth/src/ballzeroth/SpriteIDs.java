@@ -22,4 +22,18 @@ public class SpriteIDs {
 
     public static int enemyOrcID = 0;
     public static int enemyHumanID = 1;
+    
+    public static String wallpaperMenu = ".\\src\\resources\\Wallpaper_Menu.jpeg";
+    
+    //Buttons in normal state
+    public static String buttonPlay = ".\\src\\resources\\Botao_Jogar_NoAction.png";
+    public static String buttonExit = ".\\src\\resources\\Botao_Sair_NoAction.png";
+    
+    //Buttons in over
+    public static String buttonPlayOver = ".\\src\\resources\\Botao_Jogar_Over.png";
+    public static String buttonExitOver = ".\\src\\resources\\Botao_Sair_Over.png";
+    
+    //Buttons in clicked
+    public static String buttonPlayClicked = ".\\src\\resources\\Botao_Jogar_Click.png";
+    public static String buttonExitClicked = ".\\src\\resources\\Botao_Sair_Click.png";
 }

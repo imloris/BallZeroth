@@ -2,6 +2,7 @@ package ballzeroth;
 
 import java.awt.*;
 import java.awt.event.*;
+import ballzeroth.menu.*;
 
 /**
  *
@@ -30,7 +31,13 @@ public class handler implements MouseMotionListener, MouseListener {
     }
 
     public void mouseEntered(MouseEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
+        //mouse = new Point();
+        
+        //if(e == true){
+            //menuButtonPlay[1] = new ImageIcon().getImage();
+        //}
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public void mouseExited(MouseEvent e) {
